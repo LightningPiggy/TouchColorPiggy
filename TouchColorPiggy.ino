@@ -434,8 +434,8 @@ void setup() {
     lv_indev_set_read_cb(indev, my_touchpad_read);
 
     create_notification_bar();
-    create_drawer();
     create_main_screen();
+    create_drawer();
     create_wifi_screen();
 }
 
